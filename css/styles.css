@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	font-family: georgia;
+	background-color: grey
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, p {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #262626;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+
+h3 {
+	font-size: 13px;
+	line-height: 1.3;
+	font-weight: normal;
+
+}
+
+.wrap {
+	width: 1140px;
+	margin: auto;
+	background-color: gray;
+}
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+nav {
+	background-color: black;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+nav ul li {
+	display: inline;
+	list-style: none;
+	text-transform: uppercase;
+	text-rendering: none;
+	padding-left: 5px;	
+}
+
+nav a {
+	color:white;
+}
+
+.logo {
+	padding-left: 0px;
+	width: 34px;
+	height: 34px;
+	font-color: purple;
+	display: inline-block;
+	position: relative;
+}
+
+.banner {
+	padding:0 40px;
+	margin:5px;
+}
+
+.newgames_featured{
+	display: flex;
+	justify-content: space-between;
+	width: 1140px;
+	margin-top: 20px;
+
+}
+
+.newgames_items {
+	display: grid;
+	grid-template-columns:repeat(5,220px);
+	grid-template-rows:repeat(1,300px);
+	grid-column-gap:10px;
+	margin-top: 20px;
+
+}
+
+.newgames_item {
+	background-color: #E0E0E0;
+	color:black;
+}
+
+.sub_container {
+	display: flex;
+	justify-content: space-between;
+	width: 1140px;
+	margin-top: 20px;
+}
+
+.about-gog_headers {
+	display: grid;
+	grid-template-columns:repeat(3,183px);
+	grid-template-rows:repeat(1,180px);
+	grid-column-gap:1px;
+	margin-top: 20px;
+	background-color: #E0E0E0;
+}
+.headlines h2 {
+	margin-top: 20px;
+}
+
+.headlines_items {
+	display: grid;
+	grid-template-columns:repeat(1,550px);
+	grid-template-rows:repeat(11,150px);
+	grid-row-gap:1px;
+	margin-top: 20px;
+	background-color: #E0E0E0;
+}
+.headlines_item {
+	border-bottom: 1px black;
+}
+
+.right_panel h2 ul li {
+	display: inline;
+	
+}
+
+
+.popular_items{
+
+	display: grid;
+	grid-template-columns:repeat(1,550px);
+	grid-template-rows:repeat(25,75px);
+	grid-row-gap:1px;
+	margin-top: 20px;
+	background-color: #E0E0E0;
+}
+
+ footer {
+ 	background-color: black;
+ 	color:white;
+ 	margin-top: 20px;
+ }
+.footer_left ul li{
+	display: inline;
+	color:white;
+	text-transform: uppercase;
+	padding-right: 10px;
+}
+
+.footer_right ul li{
+	display: inline;
+	list-style: none;
+	color:white;
+	padding-right: 10px;
+
+
+
+}
+
+
+.footer_banner {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
